@@ -1,0 +1,21 @@
+{
+    "name": "@orcinuss/eslint-config-eslint",
+    "version": "1.0.0",
+    "description": "Eslint Configuration for Orcinuss's NPM packages for code consistency and structure.",
+    "main": "index.js",
+    "author": "Pearce Ropion",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "lint": "eslint --config ./.eslintrc.js --fix lib index.js index.spec.js",
+        "test": "NODE_ENV=test jest --config jest.config.js"
+    },
+    "dependencies": {
+        "eslint": "^5.16.0"
+    },
+    "devDependencies": {
+        "eslint-plugin-jest": "^22.6.4",
+        "jest": "^24.8.0",
+        "jest-junit": "^6.4.0"
+    }
+}
