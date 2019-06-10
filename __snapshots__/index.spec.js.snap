@@ -7,9 +7,6 @@ Object {
     "node": true,
   },
   "parserOptions": Object {
-    "ecmaFeatures": Object {
-      "experimentalObjectRestSpread": true,
-    },
     "ecmaVersion": 2018,
   },
   "rules": Object {
